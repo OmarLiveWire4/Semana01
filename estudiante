@@ -10,6 +10,25 @@ public class Estudiante {
   this.apellido = apellido;
   this.genero = new Genero(genero);
   materias = new String[5];
+  
+  
+  public String datosEstudiante() {
+  return "=============================\n"+
+  "DATOS\n"+
+  "=============================\n"+
+  "Legajo: "+legajo+"\n"+
+  "Nombre: "+nombre+"\n"+
+  "Apellido: "+apellido+"\n"+
+  "Genero: "+genero.Obtener()+"\n"+
+  "=============================\n"+
+  "MATERIAS\n"+
+  "=============================\n"+
+  materias [0]+"\n"+
+  materias [1]+"\n"+
+  materias [2]+"\n"+
+  materias [3]+"\n"+
+  materias [4]+"\n"+
+  }
 }
 
 
