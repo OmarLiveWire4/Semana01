@@ -1,0 +1,15 @@
+public class Estudiante {
+
+  private String nombre;
+  private String apellido;
+  private Genero genero;
+  private String [] materias;
+
+  public Estudiante(String nombre, String apellido, boolean genero){
+  this.nombre = nombre;
+  this.apellido = apellido;
+  this.genero = new Genero(genero);
+  materias = new String[5];
+}
+
+
